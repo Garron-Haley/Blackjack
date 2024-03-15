@@ -358,6 +358,7 @@ public class BlackJack {
 			System.out.println("the dealers cards are "+deal[0]+ " and "+deal[1]);
 			while (card.valueA < 17) {
 				for (int i = 2; i < deal.length; i++) {
+					hand[i] = (int)((Math.random() * 1000) % 13);
 					for (;;) {
 					if (deal[i] == 0) {
 						card.valueA = card.valueA + 11;
