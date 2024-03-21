@@ -229,7 +229,7 @@ public class BlackJack {
 			System.out.println("Your cards are " + hand[0]+" and "+ hand[1]);
 			System.out.println(" their visible card is "+ deal[0]);
 			while (b < 1) {
-				System.out.println("Enter hit stand or stand, or shuffle to shuffle deck");
+				System.out.println("Enter hit or stand, or shuffle to shuffle deck");
 				String h = input.next();
 				while (c < 1) {
 				if	(h.equalsIgnoreCase("hit")){
